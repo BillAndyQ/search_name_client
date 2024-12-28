@@ -1,9 +1,11 @@
 import re
 import json
+from flask_cors import CORS
 from flask import Flask, jsonify, request
 import requests
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 @app.route('/consulta_dni', methods=['POST'])
 def consulta_dni():
