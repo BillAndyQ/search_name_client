@@ -20,7 +20,7 @@ def consulta_dni():
 
     # Datos que se envían en la solicitud POST (ajustado al formulario)
     data = {
-        'dni4': dni,  # Número de DNI proporcionado en el cuerpo de la solicitud
+        'dni4': '76529706',  # Número de DNI proporcionado en el cuerpo de la solicitud
         'buscar_dni': 'Buscar'  # El nombre del botón en el formulario, aunque generalmente no es necesario
     }
 
@@ -43,8 +43,9 @@ def consulta_dni():
         # Realizar la solicitud POST
         response = requests.post(url, data=data, headers=headers)
 
-        data = json.loads(response.text)
-
+        # Descomprimir el contenido
+        print("Content-Encoding:", response.headers.get("Content-Encoding"))
+        data = json.loads(response.content[:200])
         # Extraer el valor de 'mensaje'
         mensaje = data['mensaje']
 
