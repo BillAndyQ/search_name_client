@@ -20,7 +20,7 @@ def consulta_dni():
 
     # Datos que se envían en la solicitud POST (ajustado al formulario)
     data = {
-        'dni4': '76529706',  # Número de DNI proporcionado en el cuerpo de la solicitud
+        'dni4': dni,  # Número de DNI proporcionado en el cuerpo de la solicitud
         'buscar_dni': 'Buscar'  # El nombre del botón en el formulario, aunque generalmente no es necesario
     }
 
