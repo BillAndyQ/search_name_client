@@ -24,7 +24,7 @@ Prueba la API
     "dni": "44444444"
 }
 
-response example:
+Example response
 ```json
 {
   "nombre": "JUAN JOSE RODRIGUEZ MENDEZ",
