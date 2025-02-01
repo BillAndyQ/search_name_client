@@ -23,7 +23,7 @@ Prueba la API
 {
     "dni": "44444444"
 }
-```json
+```
 
 Example response
 ```json
@@ -31,4 +31,4 @@ Example response
   "nombre": "JUAN JOSE RODRIGUEZ MENDEZ",
   "status": "success"
 }
-```json
+```
