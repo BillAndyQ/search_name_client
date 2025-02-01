@@ -21,7 +21,7 @@ API REST hecha en Flask, realiza scraping a una web de consultas y obtiene el no
 Prueba la API
 ```json
 {
-    "dni": "44444444"
+    "dni": "xxxxxxxx"
 }
 ```
 
@@ -37,4 +37,4 @@ Use la url de prueba
 ```bash
 curl -X POST https://search-name-client.vercel.app/consulta_dni \
     -H "Content-Type: application/json" \
-    -d '{"dni": "40817767"}'
+    -d '{"dni": "xxxxxxxx"}'
