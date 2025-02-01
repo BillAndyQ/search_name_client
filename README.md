@@ -19,7 +19,7 @@ API REST hecha en Flask, realiza scraping a una web de consultas y obtiene el no
     py app.py
 
 Prueba la API
-    ```bash
+    ```json
     {
         "dni":"44444444"
     }
