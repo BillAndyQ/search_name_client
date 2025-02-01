@@ -33,7 +33,7 @@ Example response
 }
 ```
 
-Use el url de prueba
+Use la url de prueba
 ```bash
 curl -X POST https://search-name-client.vercel.app/consulta_dni \
     -H "Content-Type: application/json" \
