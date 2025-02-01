@@ -23,3 +23,10 @@ Prueba la API
 {
     "dni": "44444444"
 }
+
+response example:
+```json
+{
+  "nombre": "JUAN JOSE RODRIGUEZ MENDEZ",
+  "status": "success"
+}
