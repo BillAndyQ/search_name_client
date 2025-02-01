@@ -32,3 +32,9 @@ Example response
   "status": "success"
 }
 ```
+
+Use el url de prueba
+```bash
+curl -X POST https://search-name-client.vercel.app/consulta_dni \
+    -H "Content-Type: application/json" \
+    -d '{"dni": "40817767"}'
